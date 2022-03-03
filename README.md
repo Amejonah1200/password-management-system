@@ -1,3 +1,5 @@
+**Disclaimer**: This is an educational project made for a lecture at my highschool, do not use this system in production, use at your own risk and peril! I do not take any responsibility.
+
 # Password Management System
 
 ### Index
