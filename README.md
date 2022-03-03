@@ -1,5 +1,19 @@
 **Disclaimer**: This is an educational project made for a lecture at my highschool, do not use this system in production, use at your own risk and peril! I do not take any responsibility.
 
+#### !Required! Libraries
+  - [bcrypt](https://pypi.org/project/bcrypt/)
+  - [argon2-cffi](https://argon2-cffi.readthedocs.io/en/stable/)
+  - Flask
+
+#### How to run flask?
+`flask run`
+
+#### Key python scripts?
+- `app.py` is the flask webserver
+- `pms.py` is the CUI (console user interface)
+- `test_dry.py` are the unit tests for running without flask, testing functionalities
+- `test_flask.py` are unit tests for testing flask endpoints
+
 # Password Management System
 
 ### Index
