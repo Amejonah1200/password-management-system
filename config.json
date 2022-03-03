@@ -1,0 +1,25 @@
+{
+  "dev": false,
+  "auth": true,
+  "policy": {
+    "min_length": 16,
+    "min_numbers" : 3,
+    "min_capital" : 3,
+    "min_lower" : 3,
+    "min_special" : 3,
+    "special_set" : "!$%&/*-+#'-.,_:;"
+  },
+  "hashing": {
+    "algorithm": "argon2",
+    "bcrypt": {
+      "rounds": 12
+    },
+    "argon2": {
+      "time_cost": 2,
+      "memory_cost": 102400,
+      "parallelism": 8,
+      "hash_len": 16,
+      "salt_len": 16
+    }
+  }
+}
