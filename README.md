@@ -4,13 +4,13 @@
 
 [toc]
 
-Figures:
-  1.2.1: [1-1 Use cases](#use-cases)
-  1.2.2: [1-2 Module Overview](#modules)
-  1.2.3.1: [2-1 UML Class Diagram User Management](#user-mngr)
-  1.2.3.2: [2-2 UML Class Diagram Password Generation](#class-pwd-gen)
-  3.1.1: [3-1 Sequence Diagram User Registration](#user-reg)
-  3.1.2: [3-2 Activity Diagram User Validation](#user-val)
+Figures:\
+  1.2.1: [1-1 Use cases](#use-cases)\
+  1.2.2: [1-2 Module Overview](#modules)\
+  1.2.3.1: [2-1 UML Class Diagram User Management](#user-mngr)\
+  1.2.3.2: [2-2 UML Class Diagram Password Generation](#class-pwd-gen)\
+  3.1.1: [3-1 Sequence Diagram User Registration](#user-reg)\
+  3.1.2: [3-2 Activity Diagram User Validation](#user-val)\
   3.2.1: [3-3 Activity Diagram Password Generation](#act-pwd-gen)
 
 ### 1. Introduction
@@ -20,14 +20,6 @@ Figures:
    - The first part is the user management which handles the registration and validation of user accounts also the change of their passwords.
    - The second part provides PMS Admins an interface to change settings, generate authentication tokens for services and stop the service remotely.
    - The third part provides the ability to generate valid passwords, and checking HIBP on generation.
-
-
-
-
-
-
-
-
 
 #### 1.2 Overview
 ##### 1.2.1 Use Cases
